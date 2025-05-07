@@ -1,17 +1,15 @@
 package lk.ac.vau.fas.ict.model;
 
-import java.sql.Date;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class Workshop {
+public class Presenter {
 @Id
 private String id;
-private String description;
 private String name;
-private Date startDate;
-private Date endDate;
-
+private String email;
+private String affiliation;
+private String country;
+private String jobTitle;
 }
